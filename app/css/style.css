@@ -1,0 +1,479 @@
+.font-white {
+  color: #fff !important;
+}
+.font-black {
+  color: #000 !important;
+}
+.font-gray {
+  color: #2d2d2d !important;
+}
+.font-lightgray {
+  color: #d3d3d3 !important;
+}
+.font-yellow {
+  color: #fdc31e !important;
+}
+.font-bold {
+  font-weight: bold !important;
+}
+.font-normal {
+  font-weight: normal !important;
+}
+.font-xs {
+  font-size: 50% !important;
+}
+.font-s {
+  font-size: 80% !important;
+}
+.font-l {
+  font-size: 100% !important;
+}
+.font-xl {
+  font-size: 120% !important;
+}
+.font-xxl {
+  font-size: 150% !important;
+}
+.font-hd {
+  margin: 25px 0 !important;
+}
+.ttu {
+  text-transform: uppercase !important;
+}
+.tdu {
+  text-decoration: underline !important;
+}
+.ttn {
+  text-transform: none !important;
+}
+.tac {
+  text-align: center !important;
+}
+.tal {
+  text-align: left !important;
+}
+.taj {
+  text-align: justify !important;
+}
+.tar {
+  text-align: right !important;
+}
+.full {
+  width: 100% !important;
+}
+.large {
+  width: 66.66% !important;
+}
+@media screen and (max-width: 960px) {
+  .large {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+}
+.xxl {
+  width: 80% !important;
+}
+.xl {
+  width: 50% !important;
+}
+.small {
+  width: 33.33% !important;
+}
+.semi {
+  width: 50% !important;
+}
+.wrap {
+  -webkit-flex-wrap: wrap !important;
+      -ms-flex-wrap: wrap !important;
+          flex-wrap: wrap !important;
+}
+.center {
+  margin: 0 auto;
+}
+.clear {
+  clear: both !important;
+}
+.fl {
+  float: left !important;
+}
+.fr {
+  float: right !important;
+}
+@import "http://webfonts.ru/import/raleway.css";
+@import "http://webfonts.ru/import/raleway.css";
+@import "http://www.allfont.es/allfont.css?fonts=raleway-semibold";
+@import "http://webfonts.ru/import/roboto.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#everest h1 {
+  color: #fff;
+  font-size: 45px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 1em;
+}
+@media screen and (max-width: 1024px) {
+  #everest h1 {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  #everest h1 {
+    font-size: 35px;
+  }
+}
+#everest h2 {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Raleway';
+  font-weight: 500;
+  margin: 20px 0;
+}
+@media screen and (max-width: 1024px) {
+  #everest h2 {
+    margin: 10px 0;
+  }
+}
+#everest a {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  line-height: 3;
+}
+@media screen and (max-width: 1024px) {
+  #everest a {
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 480px) {
+  #everest a {
+    font-size: 18px;
+  }
+}
+#everest p {
+  color: #000;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 1024px) {
+  #everest img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #everest img {
+    opacity: 0.2;
+  }
+}
+#everest article {
+  width: 40%;
+  padding: 35px 0;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  #everest article {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+#everest article.horizontal::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2em;
+  height: 90%;
+  top: 20%;
+  left: -2em;
+  border: 2px solid #fdc31e;
+  border-right: 0;
+}
+#everest article.horizontal::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2em;
+  height: 90%;
+  top: 20%;
+  right: -2em;
+  border: 2px solid #fdc31e;
+  border-left: 0;
+}
+#everest article.vertical._white::before {
+  border-color: #fff;
+}
+#everest article.vertical._white::after {
+  border-color: #fff;
+}
+#everest article.vertical::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 116%;
+  height: 2em;
+  top: 2em;
+  left: -8%;
+  border: 2px solid #fdc31e;
+  border-bottom: 0;
+}
+#everest article.vertical::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 116%;
+  height: 2em;
+  bottom: 0;
+  left: -8%;
+  border: 2px solid #fdc31e;
+  border-top: 0;
+}
+#everest .inner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (max-width: 1024px) {
+  #everest .inner {
+    max-width: 680px;
+  }
+}
+#everest .block1 {
+  min-height: 380px;
+  width: 100%;
+  background: url("../img/block1-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block1 {
+    min-height: 300px;
+  }
+}
+#everest .block2 img {
+  position: absolute;
+  right: 5%;
+  top: -390px;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block2 img {
+    top: -170px;
+    right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #everest .block2 img {
+    display: none;
+  }
+}
+#everest .block3,
+#everest .block10 {
+  min-height: 280px;
+  padding-top: 25px;
+}
+@media screen and (max-width: 480px) {
+  #everest .block3,
+  #everest .block10 {
+    padding-top: 0;
+  }
+}
+#everest .block3 article,
+#everest .block10 article {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  #everest .block3 article,
+  #everest .block10 article {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 640px) {
+  #everest .block3 article,
+  #everest .block10 article {
+    width: 80%;
+  }
+}
+#everest .block4,
+#everest .block6,
+#everest .block8 {
+  min-height: 330px;
+}
+@media screen and (max-width: 480px) {
+  #everest .block4,
+  #everest .block6,
+  #everest .block8 {
+    padding-top: 30px;
+  }
+}
+#everest .block4 article,
+#everest .block6 article,
+#everest .block8 article {
+  left: 60%;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block4 article,
+  #everest .block6 article,
+  #everest .block8 article {
+    left: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #everest .block4 article,
+  #everest .block6 article,
+  #everest .block8 article {
+    left: 0;
+  }
+}
+#everest .block4 img,
+#everest .block6 img,
+#everest .block8 img {
+  position: absolute;
+  top: -45px;
+  z-index: -1;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block4 img,
+  #everest .block6 img,
+  #everest .block8 img {
+    top: 0;
+  }
+}
+#everest .block5,
+#everest .block7 {
+  background: linear-gradient(to right, #e7a105 0%, #f3b313 50%, #f5c64b 50%, #fecd40 100%);
+  min-height: 400px;
+  padding-top: 80px;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block5,
+  #everest .block7 {
+    padding-top: 40px;
+  }
+}
+#everest .block5 img,
+#everest .block7 img {
+  position: absolute;
+  right: 3%;
+  top: -58px;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block5 img,
+  #everest .block7 img {
+    right: 0;
+    top: 0;
+  }
+}
+#everest .block6 {
+  margin-top: 70px;
+}
+@media screen and (max-width: 480px) {
+  #everest .block6 {
+    margin-top: 30px;
+    padding-top: 0;
+  }
+}
+#everest .block6 article {
+  width: 33%;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block6 article {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #everest .block6 article {
+    width: 80%;
+  }
+}
+#everest .block6 img {
+  z-index: 1;
+}
+#everest .block7 {
+  padding-top: 100px;
+  background: linear-gradient(to right, #fecd40 0%, #f5c64b 50%, #f3b313 50%, #f2b314 50%, #e7a105 100%);
+}
+@media screen and (max-width: 1024px) {
+  #everest .block7 {
+    padding-top: 50px;
+  }
+}
+#everest .block7 img {
+  top: -130px;
+  right: 1.5%;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block7 img {
+    right: 0;
+    top: 0;
+  }
+}
+#everest .block8 {
+  min-height: 380px;
+  padding-top: 75px;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block8 {
+    padding-top: 35px;
+  }
+}
+#everest .block8 img {
+  top: -40px;
+  left: 3%;
+}
+@media screen and (max-width: 1024px) {
+  #everest .block8 img {
+    right: 0;
+    top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #everest .block8 img {
+    left: 30%;
+  }
+}
+#everest .block9 {
+  background: linear-gradient(to right, #c3c4c4 0%, #a0a0a0 50%, #b7b7b7 50%, #7a7979 100%);
+}
+@media screen and (max-width: 768px) {
+  #everest .block9 {
+    background: linear-gradient(to right, #c3c4c4 0%, #a0a0a0 25%, #b7b7b7 75%, #7a7979 100%);
+  }
+}
+#everest .block9 article {
+  left: 60%;
+}
+@media screen and (max-width: 768px) {
+  #everest .block9 article {
+    width: 80%;
+    left: 10%;
+  }
+}
+#everest .block9 article p {
+  line-height: 1.3;
+}
+#everest .block9 img {
+  position: absolute;
+  top: 50px;
+  left: 1em;
+}
+@media screen and (max-width: 768px) {
+  #everest .block9 img {
+    opacity: 0.1;
+    width: 80%;
+    left: 10%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #everest .block10 {
+    padding-top: 0;
+    margin-bottom: 65px;
+  }
+}
+#everest .block11 {
+  min-height: 290px;
+  background: url("../img/section5-bg.jpg") no-repeat center;
+  background-size: cover;
+}
