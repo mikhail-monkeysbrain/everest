@@ -1,3 +1,5 @@
+@import "../fonts/Raleway.css";
+@import "../fonts/Raleway.css";
 .font-white {
   color: #fff !important;
 }
@@ -83,9 +85,7 @@
   width: 50% !important;
 }
 .wrap {
-  -webkit-flex-wrap: wrap !important;
-      -ms-flex-wrap: wrap !important;
-          flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
 }
 .center {
   margin: 0 auto;
@@ -99,10 +99,6 @@
 .fr {
   float: right !important;
 }
-@import "http://webfonts.ru/import/raleway.css";
-@import "http://webfonts.ru/import/raleway.css";
-@import "http://www.allfont.es/allfont.css?fonts=raleway-semibold";
-@import "http://webfonts.ru/import/roboto.css";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -158,7 +154,7 @@
 #everest p {
   color: #000;
   font-size: 18px;
-  font-family: 'Roboto';
+  font-family: 'Raleway';
 }
 @media screen and (max-width: 1024px) {
   #everest img {
